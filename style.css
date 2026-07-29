@@ -1,66 +1,92 @@
 *{
-    box-sizing:border-box;
     margin:0;
     padding:0;
+    box-sizing:border-box;
 }
 
 body{
-    font-family:Arial, Helvetica, sans-serif;
-    background:#111;
+    font-family:'Arial', sans-serif;
+    background:#0b0b0b;
     color:white;
 }
 
 
 /* PORTADA */
 
-.hero{
+.inicio{
+
     min-height:100vh;
-    background:linear-gradient(
-        rgba(0,0,0,.7),
-        rgba(0,0,0,.9)
+
+    background:
+    linear-gradient(
+    rgba(0,0,0,.65),
+    rgba(0,0,0,.85)
     ),
-    url("img/fondo.jpg");
+    url("img/portada.jpg");
 
     background-size:cover;
     background-position:center;
 
     display:flex;
-    flex-direction:column;
     justify-content:center;
     align-items:center;
+
     text-align:center;
 
     padding:30px;
+
 }
 
 
-.hero img{
-    width:180px;
-    max-width:80%;
+
+.marca img{
+
+    width:260px;
+
+    max-width:90%;
+
+    animation:entrada 1s ease;
+
 }
 
 
-.hero h1{
-    font-size:45px;
-    color:#f5c400;
+
+.marca h1{
+
+    font-size:55px;
+
+    letter-spacing:3px;
+
+    color:#ffc400;
+
     margin-top:20px;
+
 }
 
 
-.hero h2{
-    margin:15px;
+
+.marca p{
+
+    font-size:24px;
+
     font-style:italic;
+
+    margin:20px;
+
 }
 
-
-.hero p{
-    max-width:500px;
-    font-size:18px;
-}
 
 
 
 /* BOTONES */
+
+.botones{
+
+    margin-top:30px;
+
+}
+
+
 
 .botones a,
 .producto a,
@@ -68,165 +94,321 @@ body{
 
     display:inline-block;
 
-    margin:10px;
-
-    padding:12px 25px;
-
-    background:#f5c400;
+    background:#ffc400;
 
     color:#111;
+
+    padding:14px 30px;
+
+    margin:8px;
+
+    border-radius:40px;
 
     text-decoration:none;
 
     font-weight:bold;
 
-    border-radius:30px;
-
     transition:.3s;
+
 }
+
 
 
 .botones a:hover,
 .producto a:hover,
 .contacto a:hover{
 
-    transform:scale(1.05);
+    transform:translateY(-5px);
 
 }
 
 
 
-/* TITULOS */
+/* BIENVENIDA */
 
-.titulo,
-.categoria h2{
+
+.bienvenida{
 
     text-align:center;
 
-    color:#f5c400;
-
-    margin:35px 0 20px;
-
-    font-size:32px;
+    padding:60px 20px;
 
 }
+
+
+
+.bienvenida h2{
+
+    color:#ffc400;
+
+    font-size:35px;
+
+}
+
+
+
+.bienvenida p{
+
+    font-size:20px;
+
+    margin-top:15px;
+
+}
+
+
+
+
+
+/* MENU */
+
+
+.titulo,
+.seccion,
+.menu-seccion h2,
+.extras h2{
+
+    text-align:center;
+
+    color:#ffc400;
+
+    font-size:35px;
+
+    margin:40px 0;
+
+}
+
+
+
+
+.categorias{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:10px;
+
+    flex-wrap:wrap;
+
+}
+
+
+
+.categorias button{
+
+    background:#1c1c1c;
+
+    color:#ffc400;
+
+    border:1px solid #ffc400;
+
+    padding:12px 20px;
+
+    border-radius:30px;
+
+}
+
+
 
 
 
 /* PRODUCTOS */
 
-.categoria{
 
-    padding:20px;
+.productos{
+
+    display:grid;
+
+    grid-template-columns:
+    repeat(auto-fit,minmax(260px,1fr));
+
+    gap:25px;
+
+    padding:30px;
 
 }
+
 
 
 .producto{
 
-    background:#1d1d1d;
+    background:#161616;
 
-    border:1px solid #f5c400;
-
-    border-radius:20px;
+    border-radius:25px;
 
     padding:20px;
 
-    margin:20px auto;
+    border:1px solid #333;
 
-    max-width:450px;
+    box-shadow:
+    0 10px 30px rgba(0,0,0,.5);
 
-    box-shadow:0 5px 20px rgba(0,0,0,.5);
+    transition:.3s;
 
 }
+
+
+
+.producto:hover{
+
+    transform:translateY(-8px);
+
+    border-color:#ffc400;
+
+}
+
 
 
 .producto img{
 
     width:100%;
 
-    border-radius:15px;
+    height:230px;
 
-    margin-bottom:15px;
+    object-fit:cover;
+
+    border-radius:20px;
 
 }
+
 
 
 .producto h3{
 
-    color:#f5c400;
+    color:#ffc400;
 
-    font-size:25px;
+    font-size:26px;
 
-    margin-bottom:10px;
+    margin:15px 0;
 
 }
+
 
 
 .producto p{
 
     line-height:1.5;
 
-    margin:10px 0;
+    color:#ddd;
 
 }
+
 
 
 .producto strong{
 
-    color:#f5c400;
+    display:block;
 
-    font-size:22px;
+    color:#ffc400;
+
+    font-size:25px;
+
+    margin:15px 0;
 
 }
 
 
 
-/* PRODUCTOS NO DISPONIBLES */
+
+/* NO DISPONIBLE */
+
 
 .no-disponible{
 
-    opacity:.55;
+    opacity:.5;
 
 }
 
 
 
-/* CONTACTO */
 
-.contacto{
 
-    background:#f5c400;
+/* EXTRAS */
 
-    color:#111;
 
-    padding:40px 20px;
+.extras{
+
+    padding:30px;
 
     text-align:center;
 
 }
 
 
-.contacto h2{
+
+.lista{
+
+    background:#161616;
+
+    padding:25px;
+
+    border-radius:20px;
+
+    max-width:700px;
+
+    margin:auto;
+
+}
+
+
+
+.lista p{
+
+    margin:12px;
+
+}
+
+
+
+
+/* CONTACTO */
+
+
+.contacto{
+
+    background:#ffc400;
 
     color:#111;
 
-    margin-bottom:20px;
+    padding:50px 20px;
+
+    text-align:center;
 
 }
+
+
+
+.contacto h2{
+
+    font-size:35px;
+
+}
+
+
+
+.contacto p{
+
+    margin:15px;
+
+    font-size:18px;
+
+}
+
 
 
 .contacto a{
 
     background:#111;
 
-    color:#f5c400;
+    color:#ffc400;
 
 }
 
 
 
+
 /* FOOTER */
+
 
 footer{
 
@@ -234,41 +416,81 @@ footer{
 
     text-align:center;
 
-    padding:30px;
-
-}
-
-
-footer h3{
-
-    color:#f5c400;
+    padding:35px;
 
 }
 
 
 
-/* MÓVILES */
+footer h2{
+
+    color:#ffc400;
+
+}
+
+
+
+
+
+/* ANIMACION */
+
+
+@keyframes entrada{
+
+from{
+
+opacity:0;
+
+transform:scale(.7);
+
+}
+
+
+to{
+
+opacity:1;
+
+transform:scale(1);
+
+}
+
+}
+
+
+
+
+
+/* MOVIL */
+
 
 @media(max-width:600px){
 
-    .hero h1{
 
-        font-size:35px;
+.marca h1{
 
-    }
+font-size:38px;
 
-
-    .hero h2{
-
-        font-size:20px;
-
-    }
+}
 
 
-    .categoria h2{
+.marca p{
 
-        font-size:26px;
+font-size:18px;
 
-    }
+}
+
+
+.productos{
+
+padding:15px;
+
+}
+
+
+.producto img{
+
+height:200px;
+
+}
 
 }
