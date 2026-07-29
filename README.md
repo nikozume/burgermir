@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Burger's Mir | Pecar nunca supo tan bien</title>
+Burger's Mir | Pecar nunca supo tan bien
 <link rel="stylesheet" href="style.css">
 </head>
 
