@@ -1,10 +1,274 @@
 *{
-boz-sizing:border-box;
-margin:0;
-padding:0;
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
 }
+
 body{
-font-family:ARIAL, Helvetica, sans-serif;
-background:#111;
-color:white;
+    font-family:Arial, Helvetica, sans-serif;
+    background:#111;
+    color:white;
+}
+
+
+/* PORTADA */
+
+.hero{
+    min-height:100vh;
+    background:linear-gradient(
+        rgba(0,0,0,.7),
+        rgba(0,0,0,.9)
+    ),
+    url("img/fondo.jpg");
+
+    background-size:cover;
+    background-position:center;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+
+    padding:30px;
+}
+
+
+.hero img{
+    width:180px;
+    max-width:80%;
+}
+
+
+.hero h1{
+    font-size:45px;
+    color:#f5c400;
+    margin-top:20px;
+}
+
+
+.hero h2{
+    margin:15px;
+    font-style:italic;
+}
+
+
+.hero p{
+    max-width:500px;
+    font-size:18px;
+}
+
+
+
+/* BOTONES */
+
+.botones a,
+.producto a,
+.contacto a{
+
+    display:inline-block;
+
+    margin:10px;
+
+    padding:12px 25px;
+
+    background:#f5c400;
+
+    color:#111;
+
+    text-decoration:none;
+
+    font-weight:bold;
+
+    border-radius:30px;
+
+    transition:.3s;
+}
+
+
+.botones a:hover,
+.producto a:hover,
+.contacto a:hover{
+
+    transform:scale(1.05);
+
+}
+
+
+
+/* TITULOS */
+
+.titulo,
+.categoria h2{
+
+    text-align:center;
+
+    color:#f5c400;
+
+    margin:35px 0 20px;
+
+    font-size:32px;
+
+}
+
+
+
+/* PRODUCTOS */
+
+.categoria{
+
+    padding:20px;
+
+}
+
+
+.producto{
+
+    background:#1d1d1d;
+
+    border:1px solid #f5c400;
+
+    border-radius:20px;
+
+    padding:20px;
+
+    margin:20px auto;
+
+    max-width:450px;
+
+    box-shadow:0 5px 20px rgba(0,0,0,.5);
+
+}
+
+
+.producto img{
+
+    width:100%;
+
+    border-radius:15px;
+
+    margin-bottom:15px;
+
+}
+
+
+.producto h3{
+
+    color:#f5c400;
+
+    font-size:25px;
+
+    margin-bottom:10px;
+
+}
+
+
+.producto p{
+
+    line-height:1.5;
+
+    margin:10px 0;
+
+}
+
+
+.producto strong{
+
+    color:#f5c400;
+
+    font-size:22px;
+
+}
+
+
+
+/* PRODUCTOS NO DISPONIBLES */
+
+.no-disponible{
+
+    opacity:.55;
+
+}
+
+
+
+/* CONTACTO */
+
+.contacto{
+
+    background:#f5c400;
+
+    color:#111;
+
+    padding:40px 20px;
+
+    text-align:center;
+
+}
+
+
+.contacto h2{
+
+    color:#111;
+
+    margin-bottom:20px;
+
+}
+
+
+.contacto a{
+
+    background:#111;
+
+    color:#f5c400;
+
+}
+
+
+
+/* FOOTER */
+
+footer{
+
+    background:#000;
+
+    text-align:center;
+
+    padding:30px;
+
+}
+
+
+footer h3{
+
+    color:#f5c400;
+
+}
+
+
+
+/* MÓVILES */
+
+@media(max-width:600px){
+
+    .hero h1{
+
+        font-size:35px;
+
+    }
+
+
+    .hero h2{
+
+        font-size:20px;
+
+    }
+
+
+    .categoria h2{
+
+        font-size:26px;
+
+    }
+
 }
