@@ -420,3 +420,260 @@ Crujientes, doraditas y 100% caseras.
 
 
 </section> 
+
+<!-- BEBIDAS -->
+
+<section class="menu-seccion">
+
+<h2>🥤 Bebidas</h2>
+
+
+<div class="producto">
+
+<img src="img/michelada.jpg" alt="Michelada">
+
+<h3>🍺 Micheladas Burger's Mir</h3>
+
+<p>
+La bebida perfecta para acompañar una buena burger.
+</p>
+
+<strong>
+Consultar precio
+</strong>
+
+<a href="https://wa.me/5356552831">
+Pedir
+</a>
+
+</div>
+
+
+
+<div class="producto">
+
+<img src="img/pinacolada.jpg" alt="Piña Colada">
+
+<h3>🍹 Piña Colada</h3>
+
+<p>
+Sabor tropical, cremosa y refrescante.
+</p>
+
+<strong>
+Consultar precio
+</strong>
+
+<a href="https://wa.me/5356552831">
+Pedir
+</a>
+
+</div>
+
+
+
+
+<div class="producto">
+
+<img src="img/frappe.jpg" alt="Frappé">
+
+<h3>🥤 Frappés</h3>
+
+<p>
+Sabores disponibles:
+<br>
+🍫 Chocolate
+<br>
+🍮 Caramelo
+<br>
+☕ Capuchino
+<br>
+🍍 Piña
+</p>
+
+<strong>
+Consultar precio
+</strong>
+
+<a href="https://wa.me/5356552831">
+Pedir
+</a>
+
+</div>
+
+
+
+
+<div class="producto">
+
+<img src="img/milkshake.jpg" alt="Milkshake">
+
+<h3>🥛 Milkshakes</h3>
+
+<p>
+Batidos cremosos estilo Burger's Mir.
+</p>
+
+<p>
+Sabores:
+<br>
+🍫 Chocolate
+<br>
+🍓 Fresa
+<br>
+🍦 Vainilla
+<br>
+🍪 Oreo
+</p>
+
+<strong>
+Consultar precio
+</strong>
+
+<a href="https://wa.me/5356552831">
+Pedir
+</a>
+
+</div>
+
+
+
+
+<div class="producto">
+
+<img src="img/smoothie.jpg" alt="Smoothie">
+
+<h3>🍓 Smoothies</h3>
+
+<p>
+Frutas naturales y sabores refrescantes.
+</p>
+
+<p>
+🍓 Fresa
+<br>
+🥭 Mango
+<br>
+🍍 Piña
+<br>
+🥥 Coco
+</p>
+
+<strong>
+Consultar precio
+</strong>
+
+<a href="https://wa.me/5356552831">
+Pedir
+</a>
+
+</div>
+
+
+</section>
+
+
+
+<!-- REFRESCOS -->
+
+<section class="menu-seccion">
+
+<h2>🧃 Refrescos y Jugos</h2>
+
+
+<div class="lista">
+
+<p>🍋 Limón (pomo) ........ 390 CUP</p>
+
+<p>🍊 Naranja (pomo) ........ 390 CUP</p>
+
+<p>🥤 Cola (lata) ........ 400 CUP</p>
+
+
+<h3>🧃 La Estancia</h3>
+
+<p>
+🍎 Manzana ........ 320 CUP
+</p>
+
+<p>
+🥭 Néctar Mañana y Mango ........ 500 CUP
+</p>
+
+
+</div>
+
+</section>
+
+
+
+
+<!-- CONTACTO -->
+
+<section class="contacto">
+
+<h2>📲 Haz tu pedido</h2>
+
+
+<p>
+🛵 Delivery con costo adicional
+<br>
+(dependiendo de la zona)
+</p>
+
+
+<p>
+📱 WhatsApp:
+<br>
++53 56552831
+</p>
+
+
+<p>
+☎️ Teléfono fijo:
+<br>
+24 802781
+</p>
+
+
+<p>
+📍 Detrás de la Casa de Cultura
+<br>
+Banes, Holguín
+</p>
+
+
+<a href="https://wa.me/5356552831">
+Enviar pedido
+</a>
+
+
+</section>
+
+
+
+<footer>
+
+<h2>
+🍔 BURGER'S MIR
+</h2>
+
+<p>
+Pecar nunca supo tan bien
+</p>
+
+<p>
+© Todos los derechos reservados
+</p>
+
+
+</footer>
+
+
+
+<script src="script.js"></script>
+
+
+</body>
+
+</html>
