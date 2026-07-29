@@ -35,7 +35,7 @@
 <h2>🍔 Hamburguesas</h2>
 
 <div class="producto">
-<h3>Clásica : 1000 cup </h3>
+<h3>Clásica</h3>
 <p>La favorita de siempre.</p>
 <span>450 CUP</span>
 </div>
