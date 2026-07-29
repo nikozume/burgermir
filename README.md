@@ -1,114 +1,245 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-Burger's Mir | Pecar nunca supo tan bien
+
+<title>Burger's Mir | Pecar nunca supo tan bien</title>
+
 <link rel="stylesheet" href="style.css">
+
 </head>
+
 
 <body>
 
-<header>
-    <div class="logo">
-        <h1>🍔 Burger's Mir</h1>
-        <p>"Pecar nunca supo tan bien"</p>
-    </div>
 
-    <a class="pedido" href="https://wa.me/5356552831">
-        Pedir por WhatsApp
-    </a>
+<header class="inicio">
+
+
+<div class="marca">
+
+<img src="img/osimir.png" alt="Osimir Burger's Mir">
+
+
+<h1>BURGER'S MIR</h1>
+
+<p>
+Pecar nunca supo tan bien
+</p>
+
+
+<div class="botones">
+
+<a href="#menu">
+Ver Menú
+</a>
+
+
+<a href="https://wa.me/5356552831">
+Pedir Ahora
+</a>
+
+
+</div>
+
+
+</div>
+
+
 </header>
 
 
+
+
+
 <section class="bienvenida">
-    <h2>Bienvenido a Burger's Mir</h2>
-    <p>
-        Hamburguesas artesanales, bebidas refrescantes y sabores creados 
-        para disfrutar cada momento.
-    </p>
-</section>
+
+<h2>
+Bienvenido al sabor del Mir 🍔
+</h2>
 
 
-<section class="menu">
-
-<h2>🍔 Hamburguesas</h2>
-
-<div class="producto">
-<h3>Clásica</h3>
-<p>La favorita de siempre.</p>
-<span>450 CUP</span>
-</div>
-
-<div class="producto">
-<h3>Sugary Mir</h3>
-<p>Una combinación especial de Burger's Mir.</p>
-<span>550 CUP</span>
-</div>
-
-<div class="producto">
-<h3>Mirrey</h3>
-<p>Una experiencia premium.</p>
-<span>650 CUP</span>
-</div>
-
-<div class="producto">
-<h3>Piña Boom</h3>
-<p>El toque tropical que sorprende.</p>
-<span>650 CUP</span>
-</div>
-
-
-<h2>🌭 Hot Dogs</h2>
-
-<div class="producto">
-<h3>Clásico</h3>
-<span>280 CUP</span>
-</div>
-
-<div class="producto">
-<h3>Italiano</h3>
-<span>400 CUP</span>
-</div>
-
-
-<h2>🍹 Bebidas</h2>
-
-<div class="producto">
-<h3>Micheladas</h3>
-<p>Cerveza preparada al estilo Burger's Mir.</p>
-</div>
-
-<div class="producto">
-<h3>Milkshakes & Frappes</h3>
-<p>Chocolate, piña, coco, fresa y más.</p>
-</div>
+<p>
+Hamburguesas artesanales, bebidas únicas
+y una experiencia creada para disfrutar.
+</p>
 
 
 </section>
 
 
-<section class="contacto">
 
-<h2>Haz tu pedido</h2>
 
-<p>📱 WhatsApp: +53 56552831</p>
-<p>☎️ Teléfono: 24 802781</p>
+
+<section id="menu">
+
+
+<h2 class="titulo">
+Nuestro Menú
+</h2>
+
+
+
+<div class="categorias">
+
+<button>
+🍔 Burgers
+</button>
+
+<button>
+🍟 Snacks
+</button>
+
+<button>
+🍹 Bebidas
+</button>
+
+<button>
+🥤 Batidos
+</button>
+
+
+</div>
+
+
+
+
+
+<!-- BURGERS -->
+
+
+<h2 class="seccion">
+🍔 Hamburguesas
+</h2>
+
+
+
+<div class="productos">
+
+
+
+<div class="producto">
+
+<img src="img/clasica.jpg">
+
+<h3>
+Clásica
+</h3>
+
+
+<p>
+Pan artesanal, carne, queso, lechuga,
+tomate y pepino.
+</p>
+
+
+<strong>
+1000 CUP
+</strong>
+
 
 <a href="https://wa.me/5356552831">
-Enviar mensaje
+Pedir
 </a>
 
-</section>
+
+</div>
 
 
-<footer>
-<p>© Burger's Mir - Holguín, Cuba</p>
-<p>Pecar nunca supo tan bien 🍔</p>
-</footer>
 
 
-<script src="script.js"></script>
 
-</body>
-</html>
+
+<div class="producto">
+
+<img src="img/sugarymir.jpg">
+
+<h3>
+Sugary Mir
+</h3>
+
+
+<p>
+Carne, queso, vegetales y cebolla caramelizada.
+</p>
+
+
+<strong>
+1100 CUP
+</strong>
+
+
+<a href="https://wa.me/5356552831">
+Pedir
+</a>
+
+
+</div>
+
+
+
+
+
+
+<div class="producto">
+
+<img src="img/mirrey.jpg">
+
+<h3>
+Mirrey
+</h3>
+
+
+<p>
+Carne, queso, vegetales y cebolla crispy.
+</p>
+
+
+<strong>
+750 CUP
+</strong>
+
+
+<a href="https://wa.me/5356552831">
+Pedir
+</a>
+
+
+</div>
+
+
+
+
+
+<div class="producto">
+
+<img src="img/pinaboom.jpg">
+
+<h3>
+PiñaBoom 💥
+</h3>
+
+
+<p>
+Carne, queso y piña caramelizada.
+</p>
+
+
+<strong>
+800 CUP
+</strong>
+
+
+<a href="https://wa.me/5356552831">
+Pedir
+</a>
+
+
+</div>
+
+
+
+</div>
